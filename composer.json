@@ -1,0 +1,24 @@
+{
+    "name": "pskb/lkr",
+    "description": "Personal cabinet for realtors",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+          "tests\\": "tests/",
+          "Env\\": "php_interface/include/lib/Env/"
+        }
+      },
+    "scripts" : {
+        "test": "vendor/bin/phpunit"
+    },
+    "license": "none",
+    "authors": [
+        {
+            "name": "Dmitry Prokofev",
+            "email": "prokofev_dv@pskb.com"
+        }
+    ]
+}
